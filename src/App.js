@@ -11,7 +11,6 @@ import './App.css';
 const App = () => {
   return (
   <div className="page-wrapper">
-
     <Router>
       <header className="header">
         <a href='/'><img src={logo} alt="Logo" className="logo-image" /></a>
@@ -31,7 +30,7 @@ const App = () => {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/learn" element={<LearnMore />} />
-            <Route path="/lushu" element={<LoShuGrid />} />
+            <Route path="/loshu" element={<LoShuGrid />} />
           </Routes>
         </main>
 

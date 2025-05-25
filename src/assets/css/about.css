@@ -1,0 +1,36 @@
+.about-wrapper {
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-paragraph {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.about-list {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+.signature {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 30px;
+}

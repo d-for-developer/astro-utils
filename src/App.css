@@ -39,65 +39,6 @@ body {
   text-decoration: underline;
 }
 
-/* Main content section */
-.main-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3rem 1rem;
-}
-
-.main-heading {
-  font-size: 2rem;
-  color: #212121;
-  margin-bottom: 2rem;
-}
-
-/* Form styles */
-.form {
-  background-color: #ffffff;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-}
-
-.form label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
-  font-weight: 500;
-  color: #333;
-}
-
-.form input {
-  margin-top: 0.5rem;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
-  color: #212121;
-}
-
-/* Button */
-.form button {
-  padding: 0.75rem;
-  background-color: #ff6f00;
-  color: white;
-  border: none;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.form button:hover {
-  background-color: #ef6c00;
-}
-
 /* Footer styles */
 .footer {
   text-align: center;

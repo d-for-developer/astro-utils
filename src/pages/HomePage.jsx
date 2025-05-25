@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../assets/css/style.css";
+import "../assets/css/home.css"
 
 export default function HomePage() {
   const [fullName, setFullName] = useState("");

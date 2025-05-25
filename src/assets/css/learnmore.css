@@ -1,0 +1,32 @@
+.learnmore-wrapper {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+}
+
+.learnmore-heading {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.learnmore-section {
+  margin-bottom: 40px;
+}
+
+.learnmore-section h2 {
+  font-size: 1.6rem;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+.learnmore-section p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 12px;
+}
+.numerology-chart{
+    width: 720px;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/style.css"; // Update the CSS file name
+import "../assets/css/loshu.css"; // Update the CSS file name
 
 const LoShuGrid = () => {
   return (
