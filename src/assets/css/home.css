@@ -57,3 +57,10 @@
   background-color: #ef6c00;
 }
 
+.radio {
+  display: flex;
+}
+
+.inputRadio {
+  margin-bottom: 20px;
+}

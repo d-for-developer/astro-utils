@@ -7,8 +7,11 @@ import Contact from './pages/ContactUs';
 import LearnMore from './pages/LearnMore';
 import LoShuGrid from './pages/LoshuGrid';
 import './App.css';
+import LoShuGridFinal from './pages/LoShuGridFinal';
 
 const App = () => {
+
+
   return (
   <div className="page-wrapper">
     <Router>
@@ -26,11 +29,13 @@ const App = () => {
         {/* Main Content */}
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home  fullName={fullName} setFullName={setFullName} dob={dob} setDob={setDob} gender={gender} setGender={setGender}/>} /> */}
+            <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/learn" element={<LearnMore />} />
             <Route path="/loshu" element={<LoShuGrid />} />
+            <Route path="/finalloshu" element={<LoShuGridFinal/>} />
           </Routes>
         </main>
 

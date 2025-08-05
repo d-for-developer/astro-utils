@@ -31,6 +31,26 @@ const ContactUs = () => {
           </a>
         </p>
       </div>
+        <div className="contact-info">
+        <p><strong>Developer:</strong> Gowthami Priya Meka</p>
+        <p>
+          <strong>Email:</strong>{" "}
+          <a href="mailto:mgowthamipriya312@gmail.com" className="contact-link">
+            mgowthamipriya312@gmail.com
+          </a>
+        </p>
+        <p>
+          <strong>GitHub Repository:</strong>{" "}
+          <a
+            href="https://github.com/d-for-developer/astro-utils"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            github.com/d-for-developer/astro-utils
+          </a>
+        </p>
+      </div>
 
       <p className="contact-paragraph signature">
         💬 We appreciate your feedback and are constantly improving.
