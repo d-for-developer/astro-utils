@@ -32,7 +32,7 @@ const ContactUs = () => {
         </p>
       </div>
         <div className="contact-info">
-        <p><strong>Developer:</strong> Gowthami Priya Meka</p>
+        <p><strong>Developer:</strong> Gowthami Priya, Meka</p>
         <p>
           <strong>Email:</strong>{" "}
           <a href="mailto:mgowthamipriya312@gmail.com" className="contact-link">
