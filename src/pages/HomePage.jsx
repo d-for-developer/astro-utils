@@ -21,49 +21,75 @@ const handleSubmit = (e)=>{
   navigate('/finalloshu', {state: dataToPass});
 }
   return (
-    <main className="main-content">
-      <h2 className="main-heading">Welcome to Astro Utils</h2>
-      <form className="form" onSubmit={handleSubmit}>
-        <label>
-          Full Name
+<main className="d-flex justify-content-center align-items-center">
+  <div className="container" style={{ maxWidth: "500px" }}>
+    <div className="card shadow-lg p-4">
+      <h2 className="text-center mb-4">Welcome to Astro Utils</h2>
+
+      <form className="needs-validation" onSubmit={handleSubmit}>
+        {/* Full Name */}
+        <div className="mb-3">
+          <label className="form-label">Full Name</label>
           <input
             type="text"
             value={fullName}
-            name={fullName}
+            name="fullName"
+            className="form-control"
             onChange={(e) => setFullName(e.target.value)}
             required
           />
-        </label>
-        <div className="radio"><input
-          type="radio"
-          id="male"
-          className="inputRadio"
-          value="male"
-          checked={gender === "male"}
-          onChange={() => setGender("male")}
-        />
-        <label htmlFor="male">Male</label>
-        <input
-          type="radio"
-          id="female"
-          className="inputRadio"
-          value="female"
-          checked={gender === "female"}
-          onChange={() => setGender("female")}
-        />
-        <label htmlFor="female">Female</label></div>
-        <label>
-          Date of Birth
+        </div>
+
+        {/* Gender */}
+        <div className="mb-3">
+          <label className="form-label d-block">Gender</label>
+          <div className="form-check form-check-inline">
+            <input
+              type="radio"
+              id="male"
+              className="form-check-input"
+              value="male"
+              checked={gender === "male"}
+              onChange={() => setGender("male")}
+            />
+            <label className="form-check-label" htmlFor="male">Male</label>
+          </div>
+          <div className="form-check form-check-inline">
+            <input
+              type="radio"
+              id="female"
+              className="form-check-input"
+              value="female"
+              checked={gender === "female"}
+              onChange={() => setGender("female")}
+            />
+            <label className="form-check-label" htmlFor="female">Female</label>
+          </div>
+        </div>
+
+        {/* Date of Birth */}
+        <div className="mb-3">
+          <label className="form-label">Date of Birth</label>
           <input
             type="date"
             value={dob}
-            name={fullName}
+            name="dob"
+            className="form-control"
             onChange={(e) => setDob(e.target.value)}
             required
           />
-        </label>
-        <button type="submit">Submit</button>
+        </div>
+
+        {/* Submit Button */}
+        <button type="submit" className="btn btn-primary w-100">
+          Submit
+        </button>
       </form>
-    </main>
+    </div>
+  </div>
+</main>
+
+
+
   );
 }
